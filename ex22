@@ -1,0 +1,26 @@
++ adds
+- subtracts
+* multiplies
+/ divides
+= assigns
+== conditional operator
+=== checks if the right can be a set of the left, returns true or false
+&& and conditional operator
+|| or conditional operator
+!  not conditional operator
+!= not equal to
+*  wildcard
+% modulus, divides left hand by right hand and returns the remainder
+** exponent
+> greater than
+< lesser than
+
+=~ returns the position the match starts for a regexp obj
+>> s = 'how now brown cow'
+>> s =~ /cow/
+=> 14
+>> s =~ /now/
+=> 4
+>> s =~ /cat/
+=> nil
+
